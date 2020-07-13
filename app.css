@@ -30,6 +30,7 @@ body {
 
 .isBlack {
 	background: black;
+	opacity: .1;
 }
 
 h1 {
