@@ -1,11 +1,23 @@
 const container = document.getElementById("grid-container");
 const reset = document.getElementById("reset");
 const randomColor = document.getElementById("random-color");
+let incrementer = 0;
 
 container.addEventListener("mouseover", function(e){
+	if (incrementer <= 1) {
+		incrementer = incrementer + .1;
+	} else {
+		incrementer = .1;
+	}
+
 	if(e.target && e.target.matches("div.column")) {
 		e.target.classList.add("isBlack");
 	}
+
+	if (e.target.className === 'column isBlack') {
+		e.target.style.opacity = incrementer;
+	}
+
 }); 
 
 // Set default size to 16
