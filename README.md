@@ -1,10 +1,3 @@
-To view a Demo of this page:
-https://robo-91.github.io/EtchASketch/
-
-This project is part of The Odin Project Curriculum. It uses HTML, CSS, and Javascript. 
-
-The purpose of making this page was for me to learn how to dynamically create elements using javascript, as well as developing my skills with DOM manipulation.
-
 # Etch A Sketch
 
 ## Project Description
@@ -31,14 +24,12 @@ To-do list:
 
 ## Getting Started
    
-(include git clone command)
-(include all environment setup steps)
+Ensure that you have a text editor installed (Visual Studio Code, Sublime Text Editor)
+If you're using Windows, ensure that you have git bash installed.
 
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
+In your terminal/command prompt, navigate to directory that you want to clone the repository into, and use the following command:
 
-- All the `code` required to get started
-- Images of what it should look like
+> git clone https://github.com/Robo-91/EtchASketch.git
 
 ## Usage
 
