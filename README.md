@@ -22,13 +22,12 @@ The purpose of making this page was for me to learn how to dynamically create el
 ## Features
 
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Use of DOM Manipulation that fills elements with color.
+* Use of Javascript to dynamically set element sizes and color according to user input.
+* Option to fill the canvas between shades of black or with random colors.
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Add more options for colors that users can fill the canvas with.
 
 ## Getting Started
    
